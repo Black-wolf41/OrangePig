@@ -22,7 +22,7 @@ function checkCollision() {
 	if (Math.sqrt(Math.pow(pig.offsetLeft - orange.offsetLeft,2)+ Math.pow(pig.offsetTop - orange.offsetTop,2)) <128) 
 	{
 		spawnOrange();
-		score++;
+		score=score+5;
 		setScore(score)
 	}
 }
